@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Download } from "lucide-react";
+import { Cloud, Download, FileText, ShieldCheck } from "lucide-react";
 
 import Image from "next/image";
 
@@ -34,40 +34,66 @@ export const Top: React.FC = () => {
     }
   };
 
+  const features = [
+    {
+      icon: <ShieldCheck className="w-10 h-10 text-purple-600" />,
+      title: "国保連対応",
+      description: "最新フォーマットに対応。国保連請求業務を効率化します。",
+    },
+    {
+      icon: <FileText className="w-10 h-10 text-purple-600" />,
+      title: "請求自動化",
+      description: "請求書作成・管理を自動化し、ミスや工数を削減します。",
+    },
+    {
+      icon: <Cloud className="w-10 h-10 text-purple-600" />,
+      title: "クラウド一括管理",
+      description: "どこからでもアクセス可能。全てのデータを一元管理。",
+    },
+  ];
+
   return (
-    <div className="grid lg:grid-cols-3 gap-12">
+    <div className="grid lg:grid-cols-3 gap-16">
       {/* Left Content */}
       <div className="lg:col-span-2">
-        <div className="mb-6 flex items-end">
+        <div className="mb-2 flex items-end bg-gradient-to-r from-purple-600 to-indigo-500 py-4 px-8">
           <div>
-            <p className="text-[#A87FF3] font-medium mb-2">
+            <p className="text-yellow-300 font-medium mb-2">
               福祉施設向け請求事務効率化クラウドサービス
             </p>
-            <h2 className="text-5xl font-bold text-gray-800 mb-4">
+            <h2 className="text-5xl font-bold text-gray-100 tracking-wider mb-4">
               福祉のぜんぶ、
               <br />
-              <div className="mt-2" />
+              <div className="mt-6" />
               つながる
             </h2>
           </div>
-          <div className="flex items-center space-x-4 -ml-32 mb-3 border  border-[#7A42D6] py-1 px-2">
+          <div className="flex items-center space-x-4 -ml-30 mb-5 border  border-gray-200 py-1 px-2">
             <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 rounded flex items-center justify-center">
-                <span className="text-white font-bold">
-                  <Image
-                    src="/images/logo.png"
-                    alt="サンプルロゴ"
-                    width={100}
-                    height={100}
-                  />
-                </span>
-              </div>
-              <span className="text-2xl font-bold text-[#7A42D6]">
+              <span className="text-2xl font-bold text-gray-200  tracking-wide">
                 福祉リンク
               </span>
             </div>
           </div>
         </div>
+
+        {/** 強み3カラム */}
+        <section className="mb-2 py-6 px-16">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+            {features.map((f, i) => (
+              <div
+                key={i}
+                className="flex flex-col items-center text-center p-3 bg-white rounded-xl shadow-sm hover:shadow-md transition"
+              >
+                {f.icon}
+                <h3 className="text-xl font-semibold mt-4 mb-2 text-gray-700">
+                  {f.title}
+                </h3>
+                <p className="text-gray-600 text-sm">{f.description}</p>
+              </div>
+            ))}
+          </div>
+        </section>
 
         {/* Product Screenshots */}
         <div className="relative">
@@ -132,6 +158,9 @@ export const Top: React.FC = () => {
       <div className="lg:col-span-1">
         <Card className="sticky top-8">
           <CardContent className="p-6">
+            <p className="text-center text-[#7A42D6] font-bold text-sm">
+              ◯◯社導入実績あり
+            </p>
             <h3 className="text-xl font-bold text-center mb-6">
               今すぐ無料で資料請求する
             </h3>

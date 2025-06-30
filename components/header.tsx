@@ -13,7 +13,7 @@ export const colors = {
 
 export const Header: React.FC = () => {
   return (
-    <header className="bg-white shadow-md border-b-2 border-[#7A42D6]">
+    <header className="bg-white shadow-md border-b-4 border-[#7A42D6]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-2">

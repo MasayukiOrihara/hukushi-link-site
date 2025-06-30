@@ -20,16 +20,22 @@ export default function FukushiCloudLanding() {
       {/* Main Content */}
       <main>
         {/* 1項目目 */}
-        <div className="bg-white">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 ">
+        <div className="bg-gray-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 ">
             <Top />
+          </div>
+        </div>
+
+        {/* 3項目目 */}
+        <div className="bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <Bottom />
           </div>
         </div>
 
         {/* 2項目目 */}
         <div className="bg-[#F3F0FA]">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <Features />
           </div>
         </div>
@@ -38,14 +44,14 @@ export default function FukushiCloudLanding() {
 
         {/* 3項目目 */}
         <div className="bg-white">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <FeaturesDetail />
           </div>
         </div>
 
         {/* 4項目目 */}
         <div className="bg-[#F3F0FA]">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <FlowLine />
           </div>
         </div>
@@ -54,21 +60,21 @@ export default function FukushiCloudLanding() {
 
         {/* 5項目目 */}
         <div className="bg-white">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <Stats />
           </div>
         </div>
 
         {/* 6項目目 */}
         <div className="bg-[#F3F0FA]">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <CustomerVoices />
           </div>
         </div>
 
         {/* 7項目目 */}
         <div className="bg-white">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <FQA />
           </div>
         </div>
@@ -77,7 +83,7 @@ export default function FukushiCloudLanding() {
 
         {/* 8項目目 */}
         <div className="bg-white">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <CompanyInfo />
           </div>
         </div>
