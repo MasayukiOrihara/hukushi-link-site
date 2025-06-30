@@ -88,7 +88,7 @@ export const Bottom: React.FC = () => {
         </div>
         <div className="flex flex-col space-x-8 mt-4">
           <h3 className="text-xl text-center font-bold text-gray-800 mb-2">
-            福祉クラウドは確かな業務効率化で、
+            福祉リンクは確かな業務効率化で、
             <br />
             障害のある方の支援に集中できる環境を作ります
           </h3>

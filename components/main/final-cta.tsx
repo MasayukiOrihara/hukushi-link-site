@@ -6,7 +6,7 @@ export const FinalCTA: React.FC = () => {
     <div className="mt-16 bg-[#7A42D6] py-16">
       <div className="text-center text-white">
         <h2 className="text-3xl font-bold mb-4">
-          福祉クラウドで業務効率化を始めませんか？
+          福祉リンクで業務効率化を始めませんか？
         </h2>
         <p className="text-xl mb-8">まずは無料資料で詳細をご確認ください</p>
         <Button className="bg-white text-[#7A42D6] hover:bg-gray-100 px-8 py-4 text-lg">

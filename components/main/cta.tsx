@@ -8,7 +8,7 @@ export const CTA: React.FC = () => {
         <h2 className="text-3xl font-bold mb-4">
           まずはお気軽にお問い合わせください
         </h2>
-        <p className="text-xl mb-8">福祉クラウドの詳細資料をお送りします</p>
+        <p className="text-xl mb-8">福祉リンクの詳細資料をお送りします</p>
         <div className="flex justify-center space-x-4">
           <Button
             variant="outline"
