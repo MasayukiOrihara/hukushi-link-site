@@ -26,21 +26,21 @@ export const CompanyInfo = () => {
           <h3 className="text-2xl font-bold mb-6">サポート体制</h3>
           <div className="space-y-4">
             <div className="flex items-start space-x-3">
-              <Phone className="w-5 h-5 text-[#7A42D6] mt-1" />
+              <Phone className="w-5 h-5 text-[#6750A4] mt-1" />
               <div>
                 <strong>電話サポート</strong>
                 <p className="text-gray-600 text-sm">平日 9:00-18:00</p>
               </div>
             </div>
             <div className="flex items-start space-x-3">
-              <Mail className="w-5 h-5 text-[#7A42D6] mt-1" />
+              <Mail className="w-5 h-5 text-[#6750A4] mt-1" />
               <div>
                 <strong>メールサポート</strong>
                 <p className="text-gray-600 text-sm">24時間受付</p>
               </div>
             </div>
             <div className="flex items-start space-x-3">
-              <Shield className="w-5 h-5 text-[#7A42D6] mt-1" />
+              <Shield className="w-5 h-5 text-[#6750A4] mt-1" />
               <div>
                 <strong>導入支援</strong>
                 <p className="text-gray-600 text-sm">専任スタッフが対応</p>

@@ -36,17 +36,17 @@ export const Top: React.FC = () => {
 
   const features = [
     {
-      icon: <ShieldCheck className="w-10 h-10 text-purple-600" />,
+      icon: <ShieldCheck className="w-10 h-10 text-[#6750A4]" />,
       title: "国保連対応",
       description: "最新フォーマットに対応。国保連請求業務を効率化します。",
     },
     {
-      icon: <FileText className="w-10 h-10 text-purple-600" />,
+      icon: <FileText className="w-10 h-10 text-[#6750A4]" />,
       title: "請求自動化",
       description: "請求書作成・管理を自動化し、ミスや工数を削減します。",
     },
     {
-      icon: <Cloud className="w-10 h-10 text-purple-600" />,
+      icon: <Cloud className="w-10 h-10 text-[#6750A4]" />,
       title: "クラウド一括管理",
       description: "どこからでもアクセス可能。全てのデータを一元管理。",
     },
@@ -56,7 +56,7 @@ export const Top: React.FC = () => {
     <div className="grid lg:grid-cols-3 gap-16">
       {/* Left Content */}
       <div className="lg:col-span-2">
-        <div className="mb-2 flex items-end bg-gradient-to-r from-purple-600 to-indigo-500 py-4 px-8">
+        <div className="mb-2 flex items-end bg-gradient-to-r from-[#6750A4] to-indigo-500 py-4 px-8">
           <div>
             <p className="text-yellow-300 font-medium mb-2">
               福祉施設向け請求事務効率化クラウドサービス
@@ -102,7 +102,7 @@ export const Top: React.FC = () => {
             <div className="relative">
               <div className="w-56 h-102 bg-gray-900 rounded-3xl p-2">
                 <div className="w-full h-full bg-white rounded-2xl overflow-hidden">
-                  <div className="bg-[#7A42D6] h-16 flex items-center justify-center">
+                  <div className="bg-[#6750A4] h-16 flex items-center justify-center">
                     <span className="text-white font-bold">福祉リンク</span>
                   </div>
                   <div className="p-4 space-y-3">
@@ -110,7 +110,7 @@ export const Top: React.FC = () => {
                     <div className="bg-gray-100 h-8 rounded"></div>
                     <div className="bg-gray-100 h-8 rounded"></div>
                     <div className="bg-[#F3F0FA] h-12 rounded flex items-center justify-center">
-                      <span className="text-[#7A42D6] text-sm">請求書作成</span>
+                      <span className="text-[#6750A4] text-sm">請求書作成</span>
                     </div>
                   </div>
                 </div>
@@ -126,7 +126,7 @@ export const Top: React.FC = () => {
                   <div className="w-2 h-2 bg-green-500 rounded-full"></div>
                 </div>
                 <div className="bg-white h-full p-4">
-                  <div className="bg-[#7A42D6] text-white p-2 rounded mb-4">
+                  <div className="bg-[#6750A4] text-white p-2 rounded mb-4">
                     <span className="font-bold">
                       福祉リンク - 請求管理システム
                     </span>
@@ -158,7 +158,7 @@ export const Top: React.FC = () => {
       <div className="lg:col-span-1">
         <Card className="sticky top-8">
           <CardContent className="p-6">
-            <p className="text-center text-[#7A42D6] font-bold text-sm">
+            <p className="text-center text-[#6750A4] font-bold text-sm">
               ◯◯社導入実績あり
             </p>
             <h3 className="text-xl font-bold text-center mb-6">
@@ -169,7 +169,7 @@ export const Top: React.FC = () => {
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <Label htmlFor="lastName" className="text-sm font-medium">
-                    <span className="bg-[#7A42D6] text-white px-1 rounded text-xs mr-1">
+                    <span className="bg-[#6750A4] text-white px-1 rounded text-xs mr-1">
                       必須
                     </span>
                     姓
@@ -189,7 +189,7 @@ export const Top: React.FC = () => {
                 </div>
                 <div>
                   <Label htmlFor="firstName" className="text-sm font-medium">
-                    <span className="bg-[#7A42D6] text-white px-1 rounded text-xs mr-1">
+                    <span className="bg-[#6750A4] text-white px-1 rounded text-xs mr-1">
                       必須
                     </span>
                     名
@@ -211,7 +211,7 @@ export const Top: React.FC = () => {
 
               <div>
                 <Label htmlFor="phone" className="text-sm font-medium">
-                  <span className="bg-[#7A42D6] text-white px-1 rounded text-xs mr-1">
+                  <span className="bg-[#6750A4] text-white px-1 rounded text-xs mr-1">
                     必須
                   </span>
                   電話番号
@@ -284,7 +284,7 @@ export const Top: React.FC = () => {
                 </div>
               </div>
 
-              <Button className="w-full bg-[#7A42D6] hover:bg-[#A87FF3] text-white py-3">
+              <Button className="w-full bg-[#6750A4] hover:bg-[#A87FF3] text-white py-3">
                 <Download className="w-4 h-4 mr-2" />
                 下記に同意して資料をダウンロード
               </Button>

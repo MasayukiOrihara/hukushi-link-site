@@ -3,8 +3,8 @@ import { Button } from "./ui/button";
 import Image from "next/image";
 /*
 export const colors = {
-  primary: "#7A42D6",     // メインカラー（紫）
-  primaryLight: "#A87FF3",// 明るいアクセント用
+  primary: "#6750A4",     // メインカラー（紫）
+  primaryLight: "#EADDFF",// 明るいアクセント用
   background: "#F3F0FA",  // サイト全体の背景に
   text: "#2D1E5F",        // 本文などの濃いテキスト
   border: "#DAD6E5",      // 枠線や分離線
@@ -13,7 +13,7 @@ export const colors = {
 
 export const Header: React.FC = () => {
   return (
-    <header className="bg-white shadow-md border-b-4 border-[#7A42D6]">
+    <header className="bg-white shadow-md border-b-4 border-[#EADDFF]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-2">
@@ -41,7 +41,7 @@ export const Header: React.FC = () => {
               <span className="font-semibold">0120-xxx-xxx</span>
               <span className="text-sm text-gray-500">通話無料</span>
             </div>
-            <Button className="bg-[#7A42D6] hover:bg-[#A87FF3] text-white">
+            <Button className="bg-[#6750A4] hover:bg-[#EADDFF] text-white">
               <Download className="w-4 h-4 mr-2" />
               資料ダウンロード
             </Button>
@@ -50,28 +50,28 @@ export const Header: React.FC = () => {
 
         <nav>
           <div className="flex space-x-8 py-4">
-            <a href="#" className="text-gray-700 hover:text-[#A87FF3]">
+            <a href="#" className="text-gray-700 hover:text-[#EADDFF]">
               対応サービス
             </a>
-            <a href="#" className="text-gray-700 hover:text-[#A87FF3]">
+            <a href="#" className="text-gray-700 hover:text-[#EADDFF]">
               機能
             </a>
-            <a href="#" className="text-gray-700 hover:text-[#A87FF3]">
+            <a href="#" className="text-gray-700 hover:text-[#EADDFF]">
               料金
             </a>
-            <a href="#" className="text-gray-700 hover:text-[#A87FF3]">
+            <a href="#" className="text-gray-700 hover:text-[#EADDFF]">
               サポート
             </a>
-            <a href="#" className="text-gray-700 hover:text-[#A87FF3]">
+            <a href="#" className="text-gray-700 hover:text-[#EADDFF]">
               導入支援
             </a>
-            <a href="#" className="text-gray-700 hover:text-[#A87FF3]">
+            <a href="#" className="text-gray-700 hover:text-[#EADDFF]">
               お客様の声
             </a>
-            <a href="#" className="text-gray-700 hover:text-[#A87FF3]">
+            <a href="#" className="text-gray-700 hover:text-[#EADDFF]">
               わたしたちについて
             </a>
-            <a href="#" className="text-gray-700 hover:text-[#A87FF3]">
+            <a href="#" className="text-gray-700 hover:text-[#EADDFF]">
               お役立ち情報
             </a>
           </div>

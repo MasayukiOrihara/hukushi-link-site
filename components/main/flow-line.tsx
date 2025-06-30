@@ -4,12 +4,12 @@ export const FlowLine: React.FC = () => {
   return (
     <div className="relative">
       {/* Flow Line */}
-      <div className="hidden md:block absolute top-20 left-0 right-0 h-0.5 bg-[#A87FF3]"></div>
+      <div className="hidden md:block absolute top-20 left-0 right-0 h-0.5 bg-[#EADDFF]"></div>
 
       <div className="grid md:grid-cols-5 gap-8">
         {/* Step 1 */}
         <div className="text-center relative">
-          <div className="w-16 h-16 bg-[#7A42D6] text-white rounded-full mx-auto mb-4 flex items-center justify-center font-bold text-xl relative z-10">
+          <div className="w-16 h-16 bg-[#6750A4] text-white rounded-full mx-auto mb-4 flex items-center justify-center font-bold text-xl relative z-10">
             1
           </div>
           <div className="bg-white p-6 rounded-lg shadow-sm border">
@@ -26,7 +26,7 @@ export const FlowLine: React.FC = () => {
 
         {/* Step 2 */}
         <div className="text-center relative">
-          <div className="w-16 h-16 bg-[#7A42D6] text-white rounded-full mx-auto mb-4 flex items-center justify-center font-bold text-xl relative z-10">
+          <div className="w-16 h-16 bg-[#6750A4] text-white rounded-full mx-auto mb-4 flex items-center justify-center font-bold text-xl relative z-10">
             2
           </div>
           <div className="bg-white p-6 rounded-lg shadow-sm border">
@@ -43,7 +43,7 @@ export const FlowLine: React.FC = () => {
 
         {/* Step 3 */}
         <div className="text-center relative">
-          <div className="w-16 h-16 bg-[#7A42D6] text-white rounded-full mx-auto mb-4 flex items-center justify-center font-bold text-xl relative z-10">
+          <div className="w-16 h-16 bg-[#6750A4] text-white rounded-full mx-auto mb-4 flex items-center justify-center font-bold text-xl relative z-10">
             3
           </div>
           <div className="bg-white p-6 rounded-lg shadow-sm border">
@@ -60,7 +60,7 @@ export const FlowLine: React.FC = () => {
 
         {/* Step 4 */}
         <div className="text-center relative">
-          <div className="w-16 h-16 bg-[#7A42D6] text-white rounded-full mx-auto mb-4 flex items-center justify-center font-bold text-xl relative z-10">
+          <div className="w-16 h-16 bg-[#6750A4] text-white rounded-full mx-auto mb-4 flex items-center justify-center font-bold text-xl relative z-10">
             4
           </div>
           <div className="bg-white p-6 rounded-lg shadow-sm border">
@@ -77,7 +77,7 @@ export const FlowLine: React.FC = () => {
 
         {/* Step 5 */}
         <div className="text-center relative">
-          <div className="w-16 h-16 bg-[#7A42D6] text-white rounded-full mx-auto mb-4 flex items-center justify-center font-bold text-xl relative z-10">
+          <div className="w-16 h-16 bg-[#6750A4] text-white rounded-full mx-auto mb-4 flex items-center justify-center font-bold text-xl relative z-10">
             5
           </div>
           <div className="bg-white p-6 rounded-lg shadow-sm border">

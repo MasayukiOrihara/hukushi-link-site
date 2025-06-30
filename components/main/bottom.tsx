@@ -81,8 +81,8 @@ export const Bottom: React.FC = () => {
       </div>
 
       {/** bottom2 */}
-      <div className="relative mt-20 bg-white rounded p-8 shadow-sm border-4 border-[#7A42D6]">
-        <div className="absolute text-center text-white top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#7A42D6] rounded px-6 py-2 text-sm z-10">
+      <div className="relative mt-20 bg-white rounded p-8 shadow-sm border-4 border-[#6750A4]">
+        <div className="absolute text-center text-white top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#6750A4] rounded px-6 py-2 text-sm z-10">
           <p className="text-xl font-bold">その悩み、解決できます！</p>
           <p>福祉リンクでぜんぶ解決！</p>
         </div>
@@ -103,27 +103,27 @@ export const Bottom: React.FC = () => {
             </div>
             <div className="text-sm">
               <p className="flex items-center text-gray-700 mb-2">
-                <Check className="text-[#7A42D6] size-4.5 mr-2" />
+                <Check className="text-[#6750A4] size-4.5 mr-2" />
                 日報から請求まで一元管理！転記不要でミス削減！
               </p>
               <p className="flex items-center text-gray-700 mb-2">
-                <Check className="text-[#7A42D6] size-4.5 mr-2" />
+                <Check className="text-[#6750A4] size-4.5 mr-2" />
                 監査対策に強い！過去の情報も自動で履歴管理！
               </p>
               <p className="flex items-center text-gray-700 mb-2">
-                <Check className="text-[#7A42D6] size-4.5 mr-2" />
+                <Check className="text-[#6750A4] size-4.5 mr-2" />
                 国保連ソフトと自動連係！スムーズに請求完了！
               </p>
               <p className="flex items-center text-gray-700 mb-2">
-                <Check className="text-[#7A42D6] size-4.5 mr-2" />
+                <Check className="text-[#6750A4] size-4.5 mr-2" />
                 返戻リスクを事前に通知！安心して提出できる！
               </p>
               <p className="flex items-center text-gray-700 mb-2">
-                <Check className="text-[#7A42D6] size-4.5 mr-2" />
+                <Check className="text-[#6750A4] size-4.5 mr-2" />
                 利用者情報・支援記録も履歴付きで管理！
               </p>
               <p className="flex items-center text-gray-700 mb-2">
-                <Check className="text-[#7A42D6] size-4.5 mr-2" />
+                <Check className="text-[#6750A4] size-4.5 mr-2" />
                 加算の影響も自動計算で見える化！
               </p>
             </div>
@@ -131,13 +131,13 @@ export const Bottom: React.FC = () => {
           <div className="flex justify-center mt-8">
             <Button
               variant={"outline"}
-              className=" hover:bg-[#A87FF3] text-[#7A42D6]"
+              className=" hover:bg-[#EADDFF] text-[#6750A4]"
             >
               無料デモ体験
               <ArrowRight className="w-4 h-4 mr-2" />
             </Button>
 
-            <Button className="bg-[#7A42D6] hover:bg-[#A87FF3] text-white ml-4">
+            <Button className="bg-[#6750A4] hover:bg-[#EADDFF] text-white ml-4">
               資料をダウンロード
               <Download className="w-4 h-4 mr-2" />
             </Button>

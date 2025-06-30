@@ -20,7 +20,7 @@ export const FQA: React.FC = () => {
                 <h3 className="text-lg font-semibold text-gray-900">
                   料金はどのくらいかかりますか？
                 </h3>
-                <span className="text-[#7A42D6] group-open:rotate-180 transition-transform">
+                <span className="text-[#6750A4] group-open:rotate-180 transition-transform">
                   <svg
                     className="w-5 h-5"
                     fill="none"
@@ -60,7 +60,7 @@ export const FQA: React.FC = () => {
                 <h3 className="text-lg font-semibold text-gray-900">
                   導入にはどのくらいの期間がかかりますか？
                 </h3>
-                <span className="text-[#7A42D6] group-open:rotate-180 transition-transform">
+                <span className="text-[#6750A4] group-open:rotate-180 transition-transform">
                   <svg
                     className="w-5 h-5"
                     fill="none"
@@ -99,7 +99,7 @@ export const FQA: React.FC = () => {
                 <h3 className="text-lg font-semibold text-gray-900">
                   どのような福祉サービスに対応していますか？
                 </h3>
-                <span className="text-[#7A42D6] group-open:rotate-180 transition-transform">
+                <span className="text-[#6750A4] group-open:rotate-180 transition-transform">
                   <svg
                     className="w-5 h-5"
                     fill="none"
@@ -137,7 +137,7 @@ export const FQA: React.FC = () => {
                 <h3 className="text-lg font-semibold text-gray-900">
                   サポート体制はどうなっていますか？
                 </h3>
-                <span className="text-[#7A42D6] group-open:rotate-180 transition-transform">
+                <span className="text-[#6750A4] group-open:rotate-180 transition-transform">
                   <svg
                     className="w-5 h-5"
                     fill="none"
@@ -175,7 +175,7 @@ export const FQA: React.FC = () => {
                 <h3 className="text-lg font-semibold text-gray-900">
                   データのセキュリティは大丈夫ですか？
                 </h3>
-                <span className="text-[#7A42D6] group-open:rotate-180 transition-transform">
+                <span className="text-[#6750A4] group-open:rotate-180 transition-transform">
                   <svg
                     className="w-5 h-5"
                     fill="none"
@@ -213,7 +213,7 @@ export const FQA: React.FC = () => {
                 <h3 className="text-lg font-semibold text-gray-900">
                   現在使っているシステムからデータを移行できますか？
                 </h3>
-                <span className="text-[#7A42D6] group-open:rotate-180 transition-transform">
+                <span className="text-[#6750A4] group-open:rotate-180 transition-transform">
                   <svg
                     className="w-5 h-5"
                     fill="none"
@@ -253,7 +253,7 @@ export const FQA: React.FC = () => {
                 <h3 className="text-lg font-semibold text-gray-900">
                   無料体験はできますか？
                 </h3>
-                <span className="text-[#7A42D6] group-open:rotate-180 transition-transform">
+                <span className="text-[#6750A4] group-open:rotate-180 transition-transform">
                   <svg
                     className="w-5 h-5"
                     fill="none"
@@ -293,7 +293,7 @@ export const FQA: React.FC = () => {
                 <h3 className="text-lg font-semibold text-gray-900">
                   制度改正があった場合の対応はどうなりますか？
                 </h3>
-                <span className="text-[#7A42D6] group-open:rotate-180 transition-transform">
+                <span className="text-[#6750A4] group-open:rotate-180 transition-transform">
                   <svg
                     className="w-5 h-5"
                     fill="none"
@@ -330,7 +330,7 @@ export const FQA: React.FC = () => {
                 <h3 className="text-lg font-semibold text-gray-900">
                   解約時の手続きや費用はどうなりますか？
                 </h3>
-                <span className="text-[#7A42D6] group-open:rotate-180 transition-transform">
+                <span className="text-[#6750A4] group-open:rotate-180 transition-transform">
                   <svg
                     className="w-5 h-5"
                     fill="none"
@@ -372,13 +372,13 @@ export const FQA: React.FC = () => {
             専門スタッフが丁寧にお答えいたします。
           </p>
           <div className="flex justify-center space-x-4">
-            <Button className="bg-[#7A42D6] hover:bg-[#7A42D6] text-white px-6 py-3">
+            <Button className="bg-[#6750A4] hover:bg-[#6750A4] text-white px-6 py-3">
               <Mail className="w-4 h-4 mr-2" />
               メールで問い合わせ
             </Button>
             <Button
               variant="outline"
-              className="border-[#7A42D6] text-[#7A42D6] hover:bg-orange-50 px-6 py-3 bg-transparent"
+              className="border-[#6750A4] text-[#6750A4] hover:bg-orange-50 px-6 py-3 bg-transparent"
             >
               <Phone className="w-4 h-4 mr-2" />
               電話で問い合わせ
